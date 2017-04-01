@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+
+}
+html, body{
+	background: #f24049 url(../img/mainbg.png) no-repeat center center;
+	background-size: cover;
+	color: #7a7b7f;
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.667;
+	height: 100vh;
+	position: relative;
+}
+
+a{
+	text-decoration: none;
+	color: #df2671;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.container{
+	padding-left: 30px;
+	padding-right: 30px;
+	background: #fff;
+	max-width: 400px;
+	width: 100%;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+	top: 50%;
+    transform: translateY(-50%);
+	border-radius: 4px;
+}
+.header{
+	font-size: 0;
+	margin: 0 0 0.25rem 0;
+	padding-top: 1.7rem;
+}
+.logo{
+	display: inline-block;
+}
+.title{
+	display: inline-block;
+	font-size: 2rem;
+	font-weight: 700;
+	color: #000;
+	margin: 0;
+	padding-left: 0.83rem;
+}
+.description{
+	font-size: 1.083rem;
+	margin-bottom: 2.5rem;
+}
+
+/* Form */
+form{
+	font-size: 0;
+	width: 100%;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+.width-1-2{
+	width: 48.25%;
+	display: inline-block;
+}
+input, .btn{
+	border-radius: 0.25rem;
+	padding: 0;
+} 
+.input{
+	background: #f0f0f0;
+	border: 1px solid #f0f0f0;
+	font-size: 1.17rem;
+	box-sizing: border-box;
+	width: 100%;
+	line-height: 2.8;
+	padding-left: 1.17rem;
+	margin-bottom: 1.25rem;
+}
+.btn{
+	border: 1px solid #ea355a;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #fff;
+	width: 100%;
+	background: #ea355a;
+	line-height: 2.5;
+	margin-bottom: 1.8rem;
+	box-shadow: 0 3px 0 #bd1962;
+}
+
+
+.agreement{
+	padding-bottom: 4.7rem;
+}
+
+/* Hover effects */
+a:hover{
+	color: #fff;
+	background: #ea355a;
+	transition: all 0.5s ease;
+}
+.btn:hover{
+	background: #fff;
+	color: #ea355a;
+}
+
+/* Focus */
+.input:focus{
+	border: 1px solid #ea355a;
+	outline: none;
+	color: #ea355a;
+}
+.btn:focus{
+	outline: none;
+}
